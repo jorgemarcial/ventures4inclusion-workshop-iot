@@ -10,7 +10,7 @@ We are using  AWS IoT core as a platform service throught python sdk.
 
 #### Step 1
 
-Connect Raspberry Pi with sensor and leds by this way.
+Connect Raspberry Pi with sensor and leds by this way (change one of this leds by green led).
 
 ![image of electronic schema raspberry example sr04 aws](images/raspberry-example-sr04-aws.png)
 
