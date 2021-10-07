@@ -2,7 +2,7 @@
 
 This example has part from an IoT workshop.
 
-The main idea of the demo is recreate an smart parking place with an lego example. We are using a Raspberry Pi board with an ultrasound sensor sr04 to measure distance between sensor and nearest object.
+The main idea of the demo is recreate an smart parking place with lego example. We are using a Raspberry Pi board with an ultrasound sensor sr04 to measure distance between sensor and nearest object.
 When the parking place is busy red led will be turn on and when the the parking place is free green led will turn on.
 We are using  AWS IoT core as a platform service throught python sdk.
 
