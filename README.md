@@ -1,4 +1,4 @@
-## IoT Raspberry Pi sr04 demo.
+## IoT Raspberry Pi sr04 sensor AWS IoT demo.
 
 This example has part from an IoT workshop.
 
