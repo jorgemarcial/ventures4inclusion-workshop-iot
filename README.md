@@ -25,7 +25,15 @@ https://docs.aws.amazon.com/iot/latest/developerguide/create-iot-resources.html
 
 ### Step 4
 
-Override your AWS IoT device credentials in this script.
+Replace your AWS IoT device credentials in python script.
+
+```
+    myShadowClient = AWSIoTMQTTShadowClient("AWS_IOT_DEVICE_NAME")
+    myShadowClient.configureEndpoint("AWS_IOT_ENDPOINT", 8883)
+    myShadowClient.configureCredentials("AWS_IOT_CA_CRT",
+      "AWS_IOT_PRIVATE_KEY",
+      "AWS_IOT_CERT_PEM")
+```
  
 ### Step 5
 
